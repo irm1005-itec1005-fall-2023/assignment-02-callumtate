@@ -8,19 +8,19 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:chartreuse;
+  background-color:#F6CE8D;
   padding: 1rem;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: lightgreen;
+  background-color: bisque;
   /*display: flex;*/
   justify-content: center;
   align-items: column;
   padding: 1rem;
   margin: 1rem;
-  background: linear-gradient(180deg, lightgreen 0%, chartreuse 60%);
+  background: linear-gradient(45deg, #F6CE8D , chartreuse 95%);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -29,7 +29,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgreen;
+  background-color: #F6CE8D;
   padding: 1rem;
   margin: 1rem;
 }
@@ -38,7 +38,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: chartreuse;
+  background-color: #F6CE8D;
   padding: 1rem;}
 
 .hero{
