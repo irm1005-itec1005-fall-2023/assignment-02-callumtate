@@ -20,7 +20,7 @@ body {
   align-items: column;
   padding: 1rem;
   margin: 1rem;
-  background: linear-gradient(45deg, #F6CE8D , chartreuse 95%);
+  background: linear-gradient(45deg, #F6CE8D , #543D17 95%);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
