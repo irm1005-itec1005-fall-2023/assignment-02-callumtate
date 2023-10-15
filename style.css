@@ -3,17 +3,87 @@
  * CSS FILE
  */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
+main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color:#003b5b;
+  padding: 1rem;
 }
 
-h1 {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #023047;
+  /*display: flex;*/
+  justify-content: center;
+  align-items: column;
+  padding: 1rem;
+  margin: 1rem;
+  background: linear-gradient(180deg, #023047 0%, #003b5b 60%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero{
+  background-color: #023047;
+  padding: 1rem;
+  margin: 1rem;
+  
+}
+h1{
+  color :black;
   font-size: 2rem;
+  text-align: right;
+  margin: 1.5rem;
+  position: absolute;
+  top: 250px;
+  right: 10px;
+  font-style: italic;
+  padding: 1rem;
+}
+.call{
+  color :black;
+  font-size: 2rem;
+  text-align: left;
+  margin: 1.5rem;
+  padding: 1rem;
+}
+.call button{
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
   font-weight: bold;
-  text-align: center;
-  color: #023047;
+  cursor: pointer;
+  margin: 1rem;
+  font-style: italic;
+}
+.button :hover {
+  text-decoration: underline;
+  color: DDB892;
+}
+a:link {
+  color: beige; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
