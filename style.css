@@ -8,19 +8,19 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:#003b5b;
+  background-color:chartreuse;
   padding: 1rem;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #023047;
+  background-color: lightgreen;
   /*display: flex;*/
   justify-content: center;
   align-items: column;
   padding: 1rem;
   margin: 1rem;
-  background: linear-gradient(180deg, #023047 0%, #003b5b 60%);
+  background: linear-gradient(180deg, lightgreen 0%, chartreuse 60%);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -29,7 +29,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #023047;
+  background-color: lightgreen;
   padding: 1rem;
   margin: 1rem;
 }
@@ -38,11 +38,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #023047;
+  background-color: lightgreen;
   padding: 1rem;}
 
 .hero{
-  background-color: #023047;
+  background-color: lightgreen;
   padding: 1rem;
   margin: 1rem;
 }
