@@ -25,20 +25,31 @@ body {
   background-attachment: fixed;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #023047;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #023047;
+  padding: 1rem;}
+
 .hero{
   background-color: #023047;
   padding: 1rem;
   margin: 1rem;
-  
 }
 h1{
   color :black;
   font-size: 2rem;
   text-align: right;
-  margin: 1.5rem;
-  position: absolute;
-  top: 250px;
-  right: 10px;
   font-style: italic;
   padding: 1rem;
 }
